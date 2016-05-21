@@ -28,10 +28,10 @@ $searchButton.on('click', function(event) {
     dataType: 'jsonp',
     data: {
       action: 'query',
-      props: 'info',
       list: 'search',
       format: 'json',
       utf8: 1,
+      indexpageids:1,
       srsearch: $('#search').val()
     },
     xhrFields: { withCredentials: true },
