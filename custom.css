@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+* {
+  box-sizing: border-box;
+}
+
+/* button color: #212121 */
+
+body {
+  width:100%;
+  margin:0;
+  padding:50px;
+  font: 1em/1.5 Ubuntu, Roboto, Arial, sans-serif;
+  background-color: #c7c7c7;
+  color: #212121;
+}
+
+h1,h2,p {
+  text-align: left;
+}
+
+h1,h2 {
+  color: #7b1fa2;
+  border-bottom: 1px solid #B6B6B6;
+}
+
+input[type="button"] {
+  margin: 25px;
+}
+
+input[type=text] {
+  width:100%;
+}
+
+.container {
+  width: 100%;
+  max-width:960px;
+  margin: 0 auto;
+}
+
+.input, .buttons {
+  display: inline-block;
+  width: 49%;
+}
+
+.result {
+  margin: 25px auto;
+  padding: 15px 50px;
+  background-color: white;
+  border-top: 5px solid #9c27b0;
+}
+
+.material-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.material-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#search-form {
+  width: 100%;
+  display:block;
+  margin:auto;
+  background: white;
+  padding: 50px;
+  text-align: left;
+}
